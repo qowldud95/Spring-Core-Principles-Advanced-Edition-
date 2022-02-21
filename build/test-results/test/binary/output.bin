@@ -1,0 +1,4 @@
+q23:33:20.900 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic1 - 비즈니스 로직1 실행
+f23:33:20.904 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 5
+q23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic2 - 비즈니스 로직2 실행
+f23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 0

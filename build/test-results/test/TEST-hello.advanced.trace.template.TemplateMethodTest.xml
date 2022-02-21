@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.advanced.trace.template.TemplateMethodTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-21T14:33:20" hostname="DESKTOP-BAEZZI" time="0.029">
+  <properties/>
+  <testcase name="templateMethodV1()" classname="hello.advanced.trace.template.TemplateMethodTest" time="0.029"/>
+  <system-out><![CDATA[23:33:20.900 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic1 - 비즈니스 로직1 실행
+23:33:20.904 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 5
+23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic2 - 비즈니스 로직2 실행
+23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
