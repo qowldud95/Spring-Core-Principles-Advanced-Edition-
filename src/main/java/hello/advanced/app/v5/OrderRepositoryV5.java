@@ -2,11 +2,9 @@ package hello.advanced.app.v5;
 import hello.advanced.trace.callback.TraceTemplate;
 import hello.advanced.trace.logtrace.LogTrace;
 import hello.advanced.trace.template.AbstractTemplate;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
 @Repository
-@RequiredArgsConstructor
 public class OrderRepositoryV5 {
     private final TraceTemplate template;
 
@@ -15,10 +13,10 @@ public class OrderRepositoryV5 {
     }
 
     public void save(String itemId) throws IllegalAccessException {
-        template.execute("OrderRepository.save()",()->{
+        template.execute("OrderRepository.save()", ()-> {
             //저장로직
             if(itemId.equals("ex")){
-                throw new IllegalAccessException("예외발생!");
+                throw new IllegalAccessException("예외 발생!");
             }
             sleep(1000);
             return null;
