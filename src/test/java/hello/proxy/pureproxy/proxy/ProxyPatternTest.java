@@ -1,9 +1,9 @@
-package proxy.pureproxy.proxy;
+package hello.proxy.pureproxy.proxy;
 
-import proxy.pureproxy.proxy.code.CacheProxy;
-import proxy.pureproxy.proxy.code.ProxyPatternClient;
-import proxy.pureproxy.proxy.code.RealSubject;
-import proxy.pureproxy.proxy.code.Subject;
+import hello.proxy.pureproxy.proxy.code.CacheProxy;
+import hello.proxy.pureproxy.proxy.code.ProxyPatternClient;
+import hello.proxy.pureproxy.proxy.code.RealSubject;
+import hello.proxy.pureproxy.proxy.code.Subject;
 import org.junit.jupiter.api.Test;
 
 public class ProxyPatternTest {
