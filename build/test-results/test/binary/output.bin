@@ -1,4 +1,8 @@
-q23:33:20.900 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic1 - 비즈니스 로직1 실행
-f23:33:20.904 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 5
-q23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.SubClassLogic2 - 비즈니스 로직2 실행
-f23:33:20.906 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate - resultTime = 0
+\16:33:17.069 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
+\16:33:17.069 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
+]16:33:17.069 [Test worker] INFO study.proxyPattern.code0.RealSubject - 실체객체호출!!
+�16:33:18.078 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 최초 접근으로 판단! 실체 객체에 직접 접근!!
+\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
+\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
+\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
+\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
