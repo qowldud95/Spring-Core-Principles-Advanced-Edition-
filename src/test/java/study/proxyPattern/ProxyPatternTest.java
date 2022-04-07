@@ -11,13 +11,17 @@ import study.proxyPattern.code0.Subject;
 public class ProxyPatternTest {
     @Test
     void Client0Test(){
+        //Subject cacheProxy = new ProxySubject(new RealSubject());
+        //Client0 client = new Client0(cacheProxy);
+
+        //client.execute();
+       // client.execute();
+       // client.execute();
+
         Subject cacheProxy = new ProxySubject(new RealSubject());
-        Client0 client = new Client0(cacheProxy);
-
-        client.execute();
-        client.execute();
-        client.execute();
-
+        cacheProxy.run();
+        cacheProxy.run();
+        cacheProxy.run();
 
 
 

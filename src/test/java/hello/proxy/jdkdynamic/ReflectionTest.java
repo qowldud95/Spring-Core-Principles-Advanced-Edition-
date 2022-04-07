@@ -1,12 +1,12 @@
 package hello.proxy.jdkdynamic;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import java.lang.reflect.Method;
 
 @Slf4j
 public class ReflectionTest {
-    
+
     //리플렉션은 일반적으로 사용하면 안된다.
     //리플렉션 기술은 런타임에 동작하기 때문에, 컴파일 시점에 오류를 잡을 수 없다.
     //가장 좋은 오류는 개발자가 즉시 확인할 수 있는 컴파일 오류이고, 가장 무서운 오류는 사용자가 직접 실행할 때 발생하는 런타임 오류이다.

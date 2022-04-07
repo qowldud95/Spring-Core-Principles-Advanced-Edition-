@@ -6,10 +6,7 @@ import study.decoratorPattern.code0.Client0;
 import study.decoratorPattern.code0.Cooking;
 import study.decoratorPattern.code0.Egg;
 import study.decoratorPattern.code0.Ramen;
-import study.decoratorPattern.code1.Bab;
-import study.decoratorPattern.code1.Bibimbab;
-import study.decoratorPattern.code1.Client1;
-import study.decoratorPattern.code1.Rice;
+import study.decoratorPattern.code1.*;
 
 @Slf4j
 public class DecoratorPatternTest {
@@ -25,9 +22,16 @@ public class DecoratorPatternTest {
     //extends 사용
     @Test
     public void code1Test(){
-        Bab Bibimbab = new Bibimbab();
-        Bab addRiceBibimbab = new Rice(Bibimbab);
-        Client1 client1 = new Client1(addRiceBibimbab);
+
+        Client1 client1 = new Client1();
         client1.excute();
+
+        //Bab addRiceBibimbab = new Rice(new Bibimbab());
+        //addRiceBibimbab.cook();
+
+        Bab addSourceBibimbab = new Source(new Bibimbab());
+        addSourceBibimbab.cook();
+
+
     }
 }

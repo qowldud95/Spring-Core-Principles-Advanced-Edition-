@@ -1,8 +1,3 @@
-\16:33:17.069 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
-\16:33:17.069 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
-]16:33:17.069 [Test worker] INFO study.proxyPattern.code0.RealSubject - 실체객체호출!!
-�16:33:18.078 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 최초 접근으로 판단! 실체 객체에 직접 접근!!
-\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
-\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
-\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.Client0 - Subject 사용할래요
-\16:33:18.079 [Test worker] INFO study.proxyPattern.code0.ProxySubject - 프록시 호출!!
+z10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Client1 - 비빔밥 주문이요!! 요구사항 : 밥추가
+h10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Bibimbab - 기본비빔밥 요리 시작!
+]10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Rice - 비빔밥에 밥 추가
