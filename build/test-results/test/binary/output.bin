@@ -1,3 +1,4 @@
-z10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Client1 - 비빔밥 주문이요!! 요구사항 : 밥추가
-h10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Bibimbab - 기본비빔밥 요리 시작!
-]10:06:46.825 [Test worker] INFO study.decoratorPattern.code1.Rice - 비빔밥에 밥 추가
+W19:20:59.862 [Test worker] INFO study.BridgePattern.code0.Bird - 새의 사냥 방식
+e19:20:59.867 [Test worker] INFO study.BridgePattern.code0.HuntingMethod1 - 물 위에서 찾는다.
+^19:20:59.867 [Test worker] INFO study.BridgePattern.code0.HuntingMethod1 - 물고기 발견!
+Z19:20:59.867 [Test worker] INFO study.BridgePattern.code0.HuntingMethod1 - 낚아챈다.
